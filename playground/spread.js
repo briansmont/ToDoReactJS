@@ -7,9 +7,10 @@
 // var toAdd = [9,5];
 // console.log(add(...toAdd));
 
-var groupA = ['brian', 'kirstin'];
-var groupB = ['benny'];
+// var groupA = ['brian', 'kirstin'];
+// var groupB = ['benny'];
 
-var final = [3, ...groupA];
+// var final = [3, ...groupA, ...groupB];
 
-console.log(final);
+// console.log(final);
+
