@@ -22,7 +22,7 @@ var TodoList = React.createClass({
       <div>
         {renderTodos()}
       </div>
-    )
+    );
     
   }
 });

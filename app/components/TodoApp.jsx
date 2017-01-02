@@ -6,7 +6,7 @@ var TodoList = require('TodoList');
 var AddTodo = require('AddTodo');
 var TodoSearch = require('TodoSearch');
 var TodoAPI = require('TodoAPI');
-
+var Nav = require('Nav');
 var TodoApp = React.createClass({
   getInitialState: function() {
     return {
@@ -60,6 +60,7 @@ var TodoApp = React.createClass({
     
     return (
       <div>
+        <Nav/>
         <h1 className="page-title">Todo App</h1>
         <div className="row">
           <div className="column small-centered small-11 medium-6 large-5">
