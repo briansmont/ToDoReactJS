@@ -16,7 +16,7 @@ var AddTodo = React.createClass({
   
   render: function() {
     return (
-      <div>
+      <div className="container__footer">
         <form onSubmit={this.handleSubmit}>
           <input autoFocus type="text" ref="todoText" placeholder="Enter new to-do"/>
           <button className="button expanded">Add to-do!</button>
