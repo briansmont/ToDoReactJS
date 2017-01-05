@@ -40,6 +40,7 @@ module.exports = {
       jQuery: "node_modules/jquery/dist/jquery.min.js",
       actions: 'app/actions/actions.jsx',
       reducers: 'app/reducers/reducers.jsx',
+      configureStore: 'app/store/configureStore.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
