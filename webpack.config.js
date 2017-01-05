@@ -38,6 +38,8 @@ module.exports = {
       Main: "app/components/Main.jsx",
       applicationStyles: 'app/styles/app.scss',
       jQuery: "node_modules/jquery/dist/jquery.min.js",
+      actions: 'app/actions/actions.jsx',
+      reducers: 'app/reducers/reducers.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
