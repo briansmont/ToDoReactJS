@@ -42,7 +42,7 @@ describe('Reducers', () => {
       };
       var response = reducers.todosReducer([], df(action));
       expect(response.length).toEqual(1);
-      expect(response[0].todo).toEqual(action.todo);
+      expect(response[0]).toEqual(action.todo);
     });
     
     it('should update todo', () => {
