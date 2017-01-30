@@ -35,6 +35,7 @@ module.exports = {
       './app/api',
     ],
     alias: {
+      app: 'app',
       Main: "app/components/Main.jsx",
       applicationStyles: 'app/styles/app.scss',
       jQuery: "node_modules/jquery/dist/jquery.min.js",
