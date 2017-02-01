@@ -7,7 +7,7 @@ var Nav = React.createClass({
       <div className="top-bar">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menu-text">Get Things Done</li>
+            <li className="menu-text">To Do React App</li>
           </ul>
         </div>
         <div className="top-bar-right">
